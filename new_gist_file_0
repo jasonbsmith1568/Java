@@ -1,0 +1,8 @@
+import java.util.Arrays;
+import java.util.Collection;
+
+public static final Collection<string> PRIMARY_COLORS = Arrays.asList("red", "yellow", "blue");
+...
+if ( PRIMARY_COLORS.contains(color) ) {
+ System.out.println("This is a primary color");
+}
