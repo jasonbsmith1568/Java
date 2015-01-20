@@ -1,0 +1,23 @@
+try {
+        // From file
+        Sequence sequence = MidiSystem.getSequence(new File("midiaudiofile"));
+    
+        // From URL
+        sequence = MidiSystem.getSequence(new URL("http://hostname/midiaudiofile"));
+    
+        // Create a sequencer for the sequence
+        Sequencer sequencer = MidiSystem.getSequencer();
+        sequencer.open();
+        sequencer.setSequence(sequence);
+    
+        // Start playing
+        sequencer.start();
+        
+        //Stops music
+        sequencer.stop();
+        
+    } catch (MalformedURLException e) {
+    } catch (IOException e) {
+    } catch (MidiUnavailableException e) {
+    } catch (InvalidMidiDataException e) {
+    }
