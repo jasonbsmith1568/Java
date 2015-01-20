@@ -1,0 +1,48 @@
+import java.util.HashMap;
+
+
+public class PirateTranslator {
+
+	public static void main(String[] args) {
+	  
+		HashMap pirateSpeak = new HashMap<String, String>();
+		
+		pirateSpeak.put("hello", "ahoy");
+		pirateSpeak.put("pardon me", "avast");
+		pirateSpeak.put("excuse me", "arrr");
+		pirateSpeak.put("sir", "matey");
+		pirateSpeak.put("madam", "proud beauty");
+		pirateSpeak.put("miss", "comely wench");
+		pirateSpeak.put("stranger", "scurvy dog");
+		pirateSpeak.put("officer", "foul blaggart");
+		pirateSpeak.put("where is", "whar be");
+		pirateSpeak.put("can you help me find", "know ye");
+		pirateSpeak.put("is that", "be that");
+		pirateSpeak.put("how far is it to", "how many leagues to");
+		pirateSpeak.put("the", "th’");
+		pirateSpeak.put("a", "a briny");
+		pirateSpeak.put("any", "some forsaken");
+		pirateSpeak.put("nearby", "broadside");
+		pirateSpeak.put("my", "me");
+		pirateSpeak.put("your", "yer");
+		pirateSpeak.put("old", "barnacle-covered");
+		pirateSpeak.put("attractive", "comely");
+		pirateSpeak.put("happy", "grog-filled");
+		pirateSpeak.put("restaurant", "galley");
+		pirateSpeak.put("hotel", "fleabag inn");
+		pirateSpeak.put("mall", "market");		
+		pirateSpeak.put("pub", "Skull & Scuppers");
+		pirateSpeak.put("bank", "buried treasure");
+		pirateSpeak.put("I would like to", "I be needin’ t’");
+		pirateSpeak.put("i desire", "I've a fierce fire in me belly t'");
+		pirateSpeak.put("I wish I knew how to", "I be hankerin' t'");
+		pirateSpeak.put("my mother told me to", "me dear ol' mum, bless her  soul, tol' me t'");
+		pirateSpeak.put("my companion would like to", "me mate, ol' Rumpot, wants t'");
+		pirateSpeak.put("find", "come across");
+		pirateSpeak.put("take a nap", "have a bit of a lie-down");
+		pirateSpeak.put("make a withdrawal", "seize all me gold");
+		pirateSpeak.put("have a cocktail", "swill a pint or two o' grog");
+
+	}
+
+}
